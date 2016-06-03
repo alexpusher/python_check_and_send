@@ -32,8 +32,8 @@ def mail(txtparam):
 	pass - your pass from email
 	msg_txt - input error message from first method
 	"""
-	fromaddr = 'Mr. Robot <vederkonavoza@gmail.com>'
-	toaddr = 'Administrator <alexpusher1@yandex.ru>'
+	fromaddr = 'Mr. Robot <fromaddr@example.com>'
+	toaddr = 'Administrator <toaddr@example.com>'
 	subj = 'Notification from system'
 	msg_txt = txtparam
 	msg = "From: %s\nTo: %s\nSubject: %s\n\n%s"  % ( fromaddr, toaddr, subj, msg_txt)
